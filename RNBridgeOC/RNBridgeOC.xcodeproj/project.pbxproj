@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA4460AB1E88F7BD004759FE /* RNManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4460AA1E88F7BD004759FE /* RNManagerVC.m */; };
+		DA4460B21E890718004759FE /* RNBridgeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4460B11E890718004759FE /* RNBridgeModule.m */; };
+		DA74F86E1E88DE30002882D7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA74F86D1E88DE30002882D7 /* libReact.a */; };
+		DAE6B6AE1E88CA7C00DC0EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE6B6AD1E88CA7C00DC0EA4 /* main.m */; };
+		DAE6B6B11E88CA7C00DC0EA4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE6B6B01E88CA7C00DC0EA4 /* AppDelegate.m */; };
+		DAE6B6B41E88CA7C00DC0EA4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE6B6B31E88CA7C00DC0EA4 /* ViewController.m */; };
+		DAE6B6B71E88CA7C00DC0EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE6B6B51E88CA7C00DC0EA4 /* Main.storyboard */; };
+		DAE6B6B91E88CA7C00DC0EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE6B6B81E88CA7C00DC0EA4 /* Assets.xcassets */; };
+		DAE6B6BC1E88CA7C00DC0EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE6B6BA1E88CA7C00DC0EA4 /* LaunchScreen.storyboard */; };
+		E6A289E8D8BB586AADE656B6 /* libPods-RNBridgeOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9F6ADF3E7E5AC3B2BA9C74 /* libPods-RNBridgeOC.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		463752FB25E4EB68CD46F21A /* Pods-RNBridgeOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeOC/Pods-RNBridgeOC.debug.xcconfig"; sourceTree = "<group>"; };
+		7323E32553EF01FF8D599FCC /* Pods-RNBridgeOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBridgeOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNBridgeOC/Pods-RNBridgeOC.release.xcconfig"; sourceTree = "<group>"; };
+		BF9F6ADF3E7E5AC3B2BA9C74 /* libPods-RNBridgeOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNBridgeOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA4460A91E88F7BD004759FE /* RNManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNManagerVC.h; sourceTree = "<group>"; };
+		DA4460AA1E88F7BD004759FE /* RNManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNManagerVC.m; sourceTree = "<group>"; };
+		DA4460AC1E88FF01004759FE /* NotificationMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationMacro.h; sourceTree = "<group>"; };
+		DA4460B01E890718004759FE /* RNBridgeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBridgeModule.h; sourceTree = "<group>"; };
+		DA4460B11E890718004759FE /* RNBridgeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBridgeModule.m; sourceTree = "<group>"; };
+		DA74F86D1E88DE30002882D7 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/RNBridgeOC-hhybvwiqgzscqlcwvexjqqklkjsz/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
+		DAE6B6A91E88CA7C00DC0EA4 /* RNBridgeOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNBridgeOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE6B6AD1E88CA7C00DC0EA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAE6B6AF1E88CA7C00DC0EA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAE6B6B01E88CA7C00DC0EA4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAE6B6B21E88CA7C00DC0EA4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAE6B6B31E88CA7C00DC0EA4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAE6B6B61E88CA7C00DC0EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE6B6B81E88CA7C00DC0EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAE6B6BB1E88CA7C00DC0EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAE6B6BD1E88CA7C00DC0EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE6B6C31E88D0D500DC0EA4 /* React.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = React.framework; path = "../../../Library/Developer/Xcode/DerivedData/RNBridgeOC-hhybvwiqgzscqlcwvexjqqklkjsz/Build/Products/Debug-iphonesimulator/React/React.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE6B6A61E88CA7C00DC0EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA74F86E1E88DE30002882D7 /* libReact.a in Frameworks */,
+				E6A289E8D8BB586AADE656B6 /* libPods-RNBridgeOC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30DA0ADFC868A0F9D425DA78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				463752FB25E4EB68CD46F21A /* Pods-RNBridgeOC.debug.xcconfig */,
+				7323E32553EF01FF8D599FCC /* Pods-RNBridgeOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		596FD04F9C26E2AC8E3BAC93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA74F86D1E88DE30002882D7 /* libReact.a */,
+				DAE6B6C31E88D0D500DC0EA4 /* React.framework */,
+				BF9F6ADF3E7E5AC3B2BA9C74 /* libPods-RNBridgeOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE6B6A01E88CA7C00DC0EA4 = {
+			isa = PBXGroup;
+			children = (
+				DAE6B6AB1E88CA7C00DC0EA4 /* RNBridgeOC */,
+				DAE6B6AA1E88CA7C00DC0EA4 /* Products */,
+				30DA0ADFC868A0F9D425DA78 /* Pods */,
+				596FD04F9C26E2AC8E3BAC93 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE6B6AA1E88CA7C00DC0EA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE6B6A91E88CA7C00DC0EA4 /* RNBridgeOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE6B6AB1E88CA7C00DC0EA4 /* RNBridgeOC */ = {
+			isa = PBXGroup;
+			children = (
+				DAE6B6AF1E88CA7C00DC0EA4 /* AppDelegate.h */,
+				DAE6B6B01E88CA7C00DC0EA4 /* AppDelegate.m */,
+				DA4460AC1E88FF01004759FE /* NotificationMacro.h */,
+				DA4460A91E88F7BD004759FE /* RNManagerVC.h */,
+				DA4460AA1E88F7BD004759FE /* RNManagerVC.m */,
+				DAE6B6B21E88CA7C00DC0EA4 /* ViewController.h */,
+				DAE6B6B31E88CA7C00DC0EA4 /* ViewController.m */,
+				DA4460B01E890718004759FE /* RNBridgeModule.h */,
+				DA4460B11E890718004759FE /* RNBridgeModule.m */,
+				DAE6B6B51E88CA7C00DC0EA4 /* Main.storyboard */,
+				DAE6B6B81E88CA7C00DC0EA4 /* Assets.xcassets */,
+				DAE6B6BA1E88CA7C00DC0EA4 /* LaunchScreen.storyboard */,
+				DAE6B6BD1E88CA7C00DC0EA4 /* Info.plist */,
+				DAE6B6AC1E88CA7C00DC0EA4 /* Supporting Files */,
+			);
+			path = RNBridgeOC;
+			sourceTree = "<group>";
+		};
+		DAE6B6AC1E88CA7C00DC0EA4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE6B6AD1E88CA7C00DC0EA4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE6B6A81E88CA7C00DC0EA4 /* RNBridgeOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE6B6C01E88CA7C00DC0EA4 /* Build configuration list for PBXNativeTarget "RNBridgeOC" */;
+			buildPhases = (
+				5E052B414E6EC7CEA7F93978 /* [CP] Check Pods Manifest.lock */,
+				DAE6B6A51E88CA7C00DC0EA4 /* Sources */,
+				DAE6B6A61E88CA7C00DC0EA4 /* Frameworks */,
+				DAE6B6A71E88CA7C00DC0EA4 /* Resources */,
+				9D7CCA3A3DFE25F1C5AE80DA /* [CP] Embed Pods Frameworks */,
+				954E0113855A237DF832B8C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNBridgeOC;
+			productName = RNBridgeOC;
+			productReference = DAE6B6A91E88CA7C00DC0EA4 /* RNBridgeOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE6B6A11E88CA7C00DC0EA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = macbook;
+				TargetAttributes = {
+					DAE6B6A81E88CA7C00DC0EA4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAE6B6A41E88CA7C00DC0EA4 /* Build configuration list for PBXProject "RNBridgeOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE6B6A01E88CA7C00DC0EA4;
+			productRefGroup = DAE6B6AA1E88CA7C00DC0EA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE6B6A81E88CA7C00DC0EA4 /* RNBridgeOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE6B6A71E88CA7C00DC0EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE6B6BC1E88CA7C00DC0EA4 /* LaunchScreen.storyboard in Resources */,
+				DAE6B6B91E88CA7C00DC0EA4 /* Assets.xcassets in Resources */,
+				DAE6B6B71E88CA7C00DC0EA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E052B414E6EC7CEA7F93978 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		954E0113855A237DF832B8C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeOC/Pods-RNBridgeOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D7CCA3A3DFE25F1C5AE80DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNBridgeOC/Pods-RNBridgeOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE6B6A51E88CA7C00DC0EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4460AB1E88F7BD004759FE /* RNManagerVC.m in Sources */,
+				DA4460B21E890718004759FE /* RNBridgeModule.m in Sources */,
+				DAE6B6B41E88CA7C00DC0EA4 /* ViewController.m in Sources */,
+				DAE6B6B11E88CA7C00DC0EA4 /* AppDelegate.m in Sources */,
+				DAE6B6AE1E88CA7C00DC0EA4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DAE6B6B51E88CA7C00DC0EA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE6B6B61E88CA7C00DC0EA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE6B6BA1E88CA7C00DC0EA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE6B6BB1E88CA7C00DC0EA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE6B6BE1E88CA7C00DC0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAE6B6BF1E88CA7C00DC0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE6B6C11E88CA7C00DC0EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 463752FB25E4EB68CD46F21A /* Pods-RNBridgeOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RNBridgeOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hansrove.RNBridgeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAE6B6C21E88CA7C00DC0EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7323E32553EF01FF8D599FCC /* Pods-RNBridgeOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RNBridgeOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hansrove.RNBridgeOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE6B6A41E88CA7C00DC0EA4 /* Build configuration list for PBXProject "RNBridgeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE6B6BE1E88CA7C00DC0EA4 /* Debug */,
+				DAE6B6BF1E88CA7C00DC0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE6B6C01E88CA7C00DC0EA4 /* Build configuration list for PBXNativeTarget "RNBridgeOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE6B6C11E88CA7C00DC0EA4 /* Debug */,
+				DAE6B6C21E88CA7C00DC0EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE6B6A11E88CA7C00DC0EA4 /* Project object */;
+}

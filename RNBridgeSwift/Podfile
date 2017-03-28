@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+inhibit_all_warnings!
+
+target 'RNBridgeSwift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for RNBridgeSwift
+
+  # react_path 是你react-native文件夹路径。	 
+  react_path = './RNUtil/node_modules/react-native'
+  yoga_path = File.join(react_path, 'ReactCommon/yoga')
+
+  pod 'React', :path => react_path, :subspecs => [
+    'Core',
+    'RCTText',
+    'RCTImage',
+    'RCTWebSocket', # needed for debugging
+    'RCTNetwork'
+  ]
+  pod 'Yoga', :path => yoga_path
+
+end
