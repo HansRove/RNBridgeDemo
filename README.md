@@ -12,6 +12,7 @@
 
 
 #### 三、命令行 cd 到 你的项目文件夹（如../RNBridgeDemo/RNBridgeOC/RNUtil), 运行*npm install* 直到success。
+
 > 如果你要让RN有效，还需要在此路径下执行 ***npm start*** ，打开本地Node服务
 
 
@@ -23,6 +24,8 @@
 
 
 
-> 如果仍有不理解的地方，请点击[此处链接]()认真回看说明
+
+
+> 如果仍有不理解的地方，请点击[此处链接](http://www.jianshu.com/p/f1deb1af3826)认真回看说明
 
 

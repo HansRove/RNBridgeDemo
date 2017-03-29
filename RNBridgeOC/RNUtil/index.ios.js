@@ -36,7 +36,7 @@ class RNTestViewModule extends Component {
       <View style={styles.container}>
 
         <TouchableHighlight style={styles.btnBack} underlayColor="#eee" onPress={() => {
-            //方法调用 transportMessage要和OC设定的一样
+            //方法调用 transportMessage要和OC设定的一样   这样写会跳转{'method:'push', name':'华南犀牛','url':'http://www.jianshu.com/u/5d91572789ad'}   
           RNBridgeModule.transportMessage({'name':'华南犀牛','url':'http://www.jianshu.com/u/5d91572789ad'});
         }}>
             <Text style={{color:'#ffffff'}}>back回上层VC</Text>
